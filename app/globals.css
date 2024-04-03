@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .font-extra {
+      font-weight: 1200; /* This will apply the custom font weight */
+    }
+  }
+  .bg-slate-100 {
+    background-color:  bg-slate-100
+  }

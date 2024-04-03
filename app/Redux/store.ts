@@ -1,6 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch } from 'react-redux';
-import { ThunkAction } from 'redux-thunk';
 import { hospitalApi} from './hospitalSlice';
 
 export const store = configureStore({
